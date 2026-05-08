@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM
+        "https://testng.org/testng-1.0.dtd">
+
+<suite name="FlightBookSuite">
+
+    <listeners>
+
+        <listener class-name=
+                          "listeners.TestListener"/>
+
+    </listeners>
+
+    <test name="FlightBookingTests">
+
+        <classes>
+
+            <class name="tests.FlightSearchTest"/>
+
+            <class name="tests.FlightSelectionTest"/>
+
+            <class name="tests.PurchaseTest"/>
+
+            <class name="tests.RouteSearchTest"/>
+
+            <class name="tests.ValidationTest"/>
+
+        </classes>
+
+    </test>
+
+</suite>
